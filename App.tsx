@@ -14,40 +14,7 @@ type ToDoType={
 }
 
 export default function App() { 
-  // const todoData = [
-  //   {
-  //     id: 1,
-  //     title: "Todo 1",
-  //     isDone: false,
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Todo 2",
-  //     isDone: false,
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Todo 3",
-  //     isDone: false,
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Todo 4",
-  //     isDone: true,
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Todo 5",
-  //     isDone: false,
-  //   },
-  //   {
-  //     id: 6,
-  //     title: "Todo 6",
-  //     isDone: false,
-  //   },
-  // ];
-
-  // const [todos,setTodos]=useState<ToDoType[]>(todoData)
+  
   const [todos,setTodos]=useState<ToDoType[]>([])
   const [todoText,setTodoText]=useState<string>('')
   const [searchQuery, setSearchQuery] = useState<string>("");
